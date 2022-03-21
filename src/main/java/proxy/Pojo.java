@@ -7,13 +7,13 @@ public class Pojo {
 
     @Loggable
     public void test(){
-        System.out.println("test method called");
+        System.out.println("[Method] test method called");
         this.testUtil();
     }
 
     @Loggable
     public void testUtil(){
-        System.out.println("testUtil method called");
+        System.out.println("[Method] testUtil method called");
     }
 
 }

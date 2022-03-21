@@ -17,7 +17,6 @@ public class Main implements CommandLineRunner {
     @Override
     public void run(String... args){
         pojo.test();
-        System.out.println("Out of Test");
         pojo.testUtil();
     }
 }
