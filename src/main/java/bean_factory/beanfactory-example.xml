@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="employee" class="bean_factory.Employee" name="employee" autowire="byName">
+        <constructor-arg name="name" value="John"/>
+        <constructor-arg name="age" value="18"/>
+    </bean>
+
+    <bean id="service" class="interface_injection.SqlService" name="service"/>
+
+</beans>
